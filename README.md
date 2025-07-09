@@ -1,11 +1,11 @@
-# 🔍 GitHub Profile Finder
+# GitHub Profile Finder
 
 A simple, clean web app to fetch and display GitHub user profile details by entering a username.  
 Built using **HTML**, **Tailwind CSS**, and **JavaScript** with the **GitHub Users API**.
 
 ---
 
-## ✨ Features
+## Features
 
 - Search any GitHub user by username
 - Fetch and display:
@@ -20,7 +20,9 @@ Built using **HTML**, **Tailwind CSS**, and **JavaScript** with the **GitHub Use
 
 ---
 
-## 📸 Demo 
+## Demo 
 ![image](https://github.com/user-attachments/assets/e4516019-7aff-4e9f-9f95-ab438f499081)
 
 ---
+## Use it
+- Go to https://686ebca5ecff29a7718a69db--fantastic-dolphin-7d7aea.netlify.app/src/
