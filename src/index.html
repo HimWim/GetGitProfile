@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div
+      class="flex flex-col items-center justify-center min-h-screen bg-gray-700 space-y-6"
+    >
+      <div id="show">
+        <h2 class="text-white text-center m-2.5 text-3xl font-bold">
+          GIT PROFILE
+        </h2>
+        <div class="bg-gray-800 rounded-md p-4 flex items-center space-x-3">
+          <label class="text-white text-lg" for="username">Username</label>
+          <input
+            id="username"
+            class="text-black bg-gray-400 rounded-md p-1.5 font-bold"
+            type="text"
+          />
+          <button
+            id="find"
+            class="bg-gray-600 p-2 rounded-lg text-gray-200 hover:bg-gray-500"
+          >
+            Find
+          </button>
+        </div>
+      </div>
+
+      <!-- Result display container -->
+      <div id="profile" class="text-white"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
